@@ -8,7 +8,7 @@ A time series forecasting project to predict future stock prices using deep lear
 
 ---
 
-## 🧠 Skills Gained
+##  Skills Gained
 - Time Series Analysis
 - Deep Learning (LSTM)
 - Data Preprocessing
@@ -17,7 +17,7 @@ A time series forecasting project to predict future stock prices using deep lear
 
 ---
 
-## 🧰 Tools & Libraries Used
+##  Tools & Libraries Used
 - Python
 - Pandas
 - NumPy
@@ -28,13 +28,13 @@ A time series forecasting project to predict future stock prices using deep lear
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The dataset was retrieved using the **Yahoo Finance API** using the `yfinance` Python library.  
 We selected stock data for **Apple Inc. (AAPL)** from **2015 to 2023**.
 
 ---
 
-## 🔄 Model Architecture
+##  Model Architecture
 - LSTM Layer (50 units) → return sequences
 - LSTM Layer (50 units)
 - Dense Output Layer (1 neuron)
@@ -43,7 +43,7 @@ We selected stock data for **Apple Inc. (AAPL)** from **2015 to 2023**.
 
 ---
 
-## 📉 Model Evaluation
+##  Model Evaluation
 We used **Root Mean Squared Error (RMSE)** to evaluate our model's performance.  
 A comparison of actual vs. predicted stock prices is also visualized.
 
